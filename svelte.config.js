@@ -9,8 +9,8 @@ const config = {
 		adapter: adapter({
 			// TODO(8/5/25): change
 			// build outputs to wallpaper engine project folder
-			pages: "C:\\Program Files (x86)\\Steam\\steamapps\\common\\wallpaper_engine\\projects\\myprojects\\index",
-			assets: "C:\\Program Files (x86)\\Steam\\steamapps\\common\\wallpaper_engine\\projects\\myprojects\\index",
+			pages: "C:\\Program Files (x86)\\Steam\\steamapps\\common\\wallpaper_engine\\projects\\myprojects\\index1",
+			assets: "C:\\Program Files (x86)\\Steam\\steamapps\\common\\wallpaper_engine\\projects\\myprojects\\index1",
 		})
 	}
 };

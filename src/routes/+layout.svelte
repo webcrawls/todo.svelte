@@ -15,4 +15,10 @@
 		background-color: gray;
 		color: black;
 	}
+
+	:global(*) {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
 </style>

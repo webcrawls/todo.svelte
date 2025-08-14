@@ -1,2 +1,5 @@
-<h1>test</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    import StickyApp from "$lib/StickyApp.svelte";
+
+</script>
+<StickyApp/>
