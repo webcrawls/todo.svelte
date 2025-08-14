@@ -25,7 +25,7 @@
                     name: "test",
                     content: "blah",
                 },
-                position: { x: 200, y: 200 },
+                position: { x: 200, y: 200, width: 256, height: 256 },
             },
         ];
         updateStickies(newStickies);
@@ -37,7 +37,7 @@
 </script>
 
 <div class="sticky-app">
-    <StickyContainer {stickies} {updateStickies} {saveStickies}/>
+    <StickyContainer {stickies} {updateStickies}/>
     <div class="sticky-controls">
         <button>Minimize All [TODO]</button>
         <button onclick={createSticky}>Create New</button>
